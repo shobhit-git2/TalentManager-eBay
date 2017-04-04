@@ -1,0 +1,11 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: TalentManager-eBay
+  host: TalentManager-eBay
+  disk_quota: 1024M
+  services:
+  - Cloudant NoSQL DB-9r
+  - Personality Insights-66
